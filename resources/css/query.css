@@ -1,0 +1,249 @@
+
+/* big tablets to 1200 */
+
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        padding: 0 20px;
+        width: 100%;
+   
+    }
+    
+       .meals-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+        height: auto;
+    }
+    
+    
+    .row{
+        padding: 0 2%;
+    }
+    
+     .section-feature .feature .box{
+        width: 22%;
+    }
+    
+}
+
+
+/*  small tablets to big tablets: 768px to 1023px */
+@media only screen and (max-width: 1050px) {
+    .row {
+        margin: 0 5px;
+    }
+    
+    .row .div .box {
+        margin: 0 0px;
+    }
+    body {
+        font-size: 17px;
+    }
+    section {
+        padding: 15px 0;
+    }
+    .section-feature .feature .box{
+        width: 20%;
+        margin-left: 35px;
+    }
+    .long-copy {
+    width: 80%;
+    margin-left: 10%;
+    }
+    
+    .steps-box:last-child {margin-top: 10px;}
+    .works-step {
+        margin-bottom: 40px;
+    }
+    .works-step:last-of-type {
+        margin-bottom: 60px;
+    }
+    .app-screen {width: 50%;}
+    .icon-small {
+        width: 17%;
+    
+        margin-right: 5px;    
+    }
+    
+    .city-feature{font-size: 90%;}
+    
+    .btn-app img {
+    height: 50px;
+    width: 40%;
+    margin-right: 30px;
+    }
+   
+    .plan-price {
+        font-size: 250%;
+    }
+    
+    .section-plans .row .plan-box{
+        margin-right: 20px;
+    }
+    
+
+    .plan-text {
+        padding: 13px 0;
+        font-size: 16px;
+        height: 200px;
+    }
+    
+    .plan-text ul li {
+        padding: 10px 0;
+    }
+    .plan-box div .btn {
+        width: 140px;
+        font-size: 14px;
+        
+    position: absolute;
+    top: 373px;
+    right: 49px
+}
+    .meals-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+        height: auto;
+    }
+    
+    
+    .meals-showcase {
+        height: 0;
+    }
+}
+
+/* small phone to small tablets: 481px to 766px */
+@media only screen and (max-width: 767px) {
+    
+    h3 {
+        font-size: 25px;
+    }
+    body {
+        font-size: 16px;
+        
+       
+    }  
+    .main-nav {display: none;}
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+    
+    .main-nav {
+        float: left;
+        margin-top: 25px;
+    }
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        display: block;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    
+    /*STICKY NAV*/
+    .sticky .main-nav li a:hover{
+        border-bottom: 0;
+    }
+    
+    .mobile-nav-icon a:hover { 
+        border-bottom: 0;
+    }
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {
+        padding: 5px 0;
+        font-size: 90%;
+        font-weight: 400;
+        margin: 5px 0;
+
+    }
+    .sticky .mobile-nav-icon ion-icon {
+        color: #555;
+        
+    }
+    
+    .sticky .mobile-nav-icon li a:hover {
+     border-bottom: 0;
+        
+    }
+    .sticky .mobile-nav-icon {
+    margin-top: 12px;
+        
+    }
+
+    .sticky .main-nav {
+        margin-top:10px;
+    }
+
+    
+    .col {
+        width: 100% !important;
+        
+    }
+    section{
+        padding: 0 0;
+    }
+    
+    .row,
+    .hero-text-box {
+        padding: 0 4%;
+    }
+   
+    .section-feature {
+          overflow-x: hidden; 
+         overflow-y: hidden; 
+    }
+    .section-feature .box p {
+        
+        text-align: justify;
+        word-wrap: break-word;
+          padding: 0 30px;
+        
+    } 
+    .example {
+      -ms-overflow-style: none;
+    }
+    
+    .meals-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+        height: auto;
+    }
+    
+    
+    
+.plan-box div .btn {
+    position: static;
+  
+}
+ 
+    
+    .steps-box:first-child {
+    text-align: center;
+    padding-right: 3%;
+}    
+    
+     .plan-text {
+        padding: 13px 0;
+        font-size: 16px;
+        height: 180px;
+    }
+    .section-plans .col {
+        margin-top: 20px;
+    }
+    .section-plans .col:first-child {
+        margin-left: 10px;
+    }
+    .plan-box:last-of-type {
+        height: 390px;
+    }
+}
+
+
+/* small phone from 0 to 480px */
+@media only screen and (max-width: 480px) {
+        
+}
